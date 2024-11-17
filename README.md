@@ -183,8 +183,7 @@ Guzmán Vite Adamaris Yareth Guadalupe
 #Login
 ![image](https://github.com/user-attachments/assets/f27fa096-5f2c-4a8f-9343-cc9eab404334)
 
-#Ingreso
-![image](https://github.com/user-attachments/assets/8da49851-bce4-4807-9b20-f468ac6662a8)
+
 
 
 
