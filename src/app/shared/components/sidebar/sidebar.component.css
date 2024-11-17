@@ -1,0 +1,55 @@
+/* Menú lateral */
+mat-toolbar {
+  position: relative;
+  z-index: 5;
+  background: linear-gradient(135deg, #8e2de2, #e94057); /* Degradado morado-rosa */
+  color: white; /* Texto blanco para contraste */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra intensa */
+  padding: 16px;
+  font-weight: bold;
+  text-transform: uppercase; /* Texto en mayúsculas */
+  transition: background 0.3s ease; /* Suave cambio de color */
+}
+
+mat-toolbar:hover {
+  background: linear-gradient(135deg, #4a00e0, #f27121); /* Degradado más intenso */
+}
+
+/* Contenido principal */
+.content {
+  padding: 24px;
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* Fondo claro con degradado suave */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+.content:hover {
+  transform: scale(1.02); /* Agrandamiento al pasar el mouse */
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* Sombra más profunda */
+}
+
+/* Borde estilizado */
+.border {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el borde */
+  border-radius: 10px; /* Bordes redondeados */
+  transition: box-shadow 0.3s ease; /* Transición suave */
+}
+
+.border:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más intensa al pasar el mouse */
+}
+
+/* Contenedor del sidenav */
+mat-sidenav-container {
+  height: calc(100vh - 64px); /* Ajuste dinámico de altura */
+  background: linear-gradient(135deg, #ffffff, #f1f3f4); /* Fondo claro */
+  border-radius: 10px;
+  overflow: hidden; /* Evita que los elementos se desborden */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  transition: background 0.3s ease; /* Suave cambio de color */
+}
+
+mat-sidenav-container:hover {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef); /* Fondo con degradado más claro */
+}

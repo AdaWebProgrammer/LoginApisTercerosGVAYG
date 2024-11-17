@@ -1,0 +1,46 @@
+
+/* Barra lateral */
+.sidenav-content {
+  background-color: #1e88e5; /* Azul oscuro */
+  color: white;
+  height: 100%;
+  padding: 16px;
+}
+
+.sidenav-content h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sidenav-content p {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+/* Lista de navegación */
+mat-nav-list {
+  margin-top: 20px;
+}
+
+mat-list-item {
+  color: white;
+}
+
+mat-list-item:hover {
+  background-color: rgba(255, 255, 255, 0.1); /* Fondo ligeramente más claro al pasar el mouse */
+}
+
+/* Contenido principal */
+mat-sidenav-content {
+  background-color: #f5f5f5; /* Gris claro */
+}
+
+.content {
+  padding: 24px;
+}
+
+/* Barra de herramientas */
+mat-toolbar {
+  background-color: #145c9a; /* Azul oscuro */
+  color: white;
+}

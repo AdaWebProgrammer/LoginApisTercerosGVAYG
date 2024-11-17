@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #8e44ad, #c0392b); /* Fondo degradado de morado a rosa intenso */
+}
+
+.right-panel {
+  width: 100%;
+  max-width: 400px; /* Tamaño máximo del formulario */
+  background: rgba(255, 255, 255, 0.1); /* Fondo translúcido para el formulario */
+  padding: 30px;
+  border-radius: 20px; /* Bordes redondeados */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombra para profundidad */
+  text-align: center;
+}
+
+.example-card {
+  width: 100%;
+  background-color: transparent; /* Fondo transparente */
+}
+
+.icon {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.login-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(255, 255, 255); /* Texto blanco */
+  margin-bottom: 20px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+mat-form-field.mat-form-field-appearance-fill .mat-form-field-flex {
+  background: rgba(255, 255, 255, 0.2); /* Transparente y con bordes sutiles */
+  border-radius: 10px;
+}
+
+mat-label, input {
+  color: rgb(209, 44, 138) !important; /* Texto blanco */
+}
+
+button {
+  width: 100%;
+  background: linear-gradient(135deg, #f7b42c, #fc575e); /* Botón con degradado naranja-rosa */
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 30px; /* Botón redondeado */
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra para realce */
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease; /* Transición al interactuar */
+}
+
+button:hover {
+  transform: scale(1.05); /* Agrandamiento sutil */
+  background: linear-gradient(135deg, #e57373, #ff8a65); /* Tonos más intensos al pasar el ratón */
+}
+
+.forgot-password {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  color: #dcdcdc; /* Gris claro para el enlace */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .right-panel {
+    width: 90%; /* Adaptación para pantallas pequeñas */
+  }
+}

@@ -1,0 +1,17 @@
+<mat-toolbar class="mat-elevation-z3 " >
+    <button mat-icon-button (click)="collapsed.set(!collapsed())" class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>Menu</mat-icon>
+    </button>
+    <span>Mi Aplicacion</span>
+  </mat-toolbar>
+  
+  <mat-sidenav-container style="background-color: white; ">
+    <mat-sidenav opened mode="side" [style.width]="sidevabWidth()" style="background-color: rgb(251, 246, 246);" class="border">
+     <app-menu [collapsed]="collapsed()"></app-menu>
+    </mat-sidenav>
+    <mat-sidenav-content class="content" [style.margin-left]="sidevabWidth()">
+      
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  
+  
