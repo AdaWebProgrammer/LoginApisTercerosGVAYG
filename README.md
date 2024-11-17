@@ -129,7 +129,8 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
 imports: [
   ...
   HttpClientModule
-]```
+]
+```
 
 
 ------------
@@ -174,7 +175,7 @@ onSubmit() {
   );
 }
 ```
-
+````
 ## Hecho por:
 Guzmán Vite Adamaris Yareth Guadalupe
 
